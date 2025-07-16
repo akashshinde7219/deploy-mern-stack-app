@@ -1,4 +1,19 @@
-# A simple MERN stack application 
+## A simple MERN stack application 
+
+# 📁 Project Structure
+
+```
+project-root/
+├── backend/           # Node.js + Express API
+│   └── Dockerfile
+├── frontend/          # React frontend
+│   └── Dockerfile
+├── docker-compose.yml
+├── docker-stack.yaml
+└── README.md
+```
+
+---
 
 ### Create a network for the docker containers
 
