@@ -64,9 +64,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: backend:latest
-          imagePullPolicy: Never
-
+          image: 730335595521.dkr.ecr.ap-south-1.amazonaws.com/devops/mern-app:backend
           ports:
             - containerPort: 5050
           env:
@@ -100,8 +98,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: frontend:latest
-          imagePullPolicy: Never
+          image: 730335595521.dkr.ecr.ap-south-1.amazonaws.com/devops/mern-app:frontend    
           ports:
             - containerPort: 5173
           env:
