@@ -93,7 +93,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: 730335595521.dkr.ecr.ap-south-1.amazonaws.com/devops/mern-app:latest
+          image: 730335595521.dkr.ecr.ap-south-1.amazonaws.com/devops/mern-app:frontend
           ports:
             - containerPort: 5173
           env:
