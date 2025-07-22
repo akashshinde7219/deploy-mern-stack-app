@@ -1,6 +1,6 @@
-## A simple MERN stack application 
+# A simple MERN stack application 
 
-# 📁 Project Structure
+### 📁 Project Structure
 
 ```
 project-root/
@@ -51,47 +51,47 @@ docker build -t mern-backend .
 
 `docker run --name=backend --network=demo -d -p 5050:5050 mern-backend`
 
-## Using Docker Compose
+### Using Docker Compose
 
 `docker compose up -d`
 
-### ☁️ Production Deployment to AWS EKS (Automated via Jenkins)
+## ☁️ Production Deployment to AWS EKS (Automated via Jenkins)
 After validating the local Docker setup, the application was deployed to Amazon EKS using the following steps:
 
-# ⚙️Infrastructure Setup
+## ⚙️Infrastructure Setup
 EKS cluster created using Terraform
 VPC, subnets, node groups provisioned as modules
 
-# 🐳 Docker Images
+## 🐳 Docker Images
 Docker images for mern-backend and mern-frontend were built
 
 Images pushed to AWS Elastic Container Registry (ECR)
 
-# 🤖 Jenkins CI/CD Pipeline
-    Jenkins pipeline was created to automate:
+## 🤖 Jenkins CI/CD Pipeline
+Jenkins pipeline was created to automate:
 
-    Terraform EKS provisioning
+Terraform EKS provisioning
 
-    Docker image build and push to ECR
+Docker image build and push to ECR
 
-    Kubernetes manifest deployment (mern-app.yaml)
+Kubernetes manifest deployment (mern-app.yaml)
 
-# 📦 Kubernetes Deployment
+## 📦 Kubernetes Deployment
 Kubernetes manifests (mern-app.yaml) used to deploy the app on EKS
 
 Services exposed using LoadBalancer for frontend and backend
 
-# 🔧 Technologies Used
-        Docker, Docker Compose
+## 🔧 Technologies Used
+Docker, Docker Compose
 
-        Node.js, Express, React, MongoDB
+Node.js, Express, React, MongoDB
 
-        Jenkins (CI/CD)
+Jenkins (CI/CD)
 
-        AWS ECR, EKS
+AWS ECR, EKS
 
-        Terraform (Infra as Code)
+Terraform (Infra as Code)
 
-        Kubernetes
+Kubernetes
 
 
