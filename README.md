@@ -95,4 +95,3 @@ Services exposed using LoadBalancer for frontend and backend
         Kubernetes
 
 
-![https://github.com/akashshinde7219/deploy-mern-stack-app/blob/terraform/image.png](image-2.png)
